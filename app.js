@@ -14,6 +14,4 @@ app.use(express.json());
 app.use("/students",studentRoutes);
 
 
-
-
 app.listen(port,()=>console.log(`server start on ${port}`));
